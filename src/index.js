@@ -3,11 +3,16 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import DataBindingComponent from './MarsRoverComponets/Mars';
+import ShoppingComponent from './FakeStoreComponents/Store';
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/bootstrap-icons/font/bootstrap-icons.css'
+import ShoppingComponent2 from './FakeStoreComponents/AddingCart';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <ShoppingComponent2/>
   </React.StrictMode>
 );
 
